@@ -1,0 +1,19 @@
+.post {
+   background: #fff;
+   transition: transform 0.2s ease-in-out;
+   box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.post:hover {
+    transform: scale(1.1)
+}
+
+.post-content {
+    padding: 30px;
+}
+
+.post-photo {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}

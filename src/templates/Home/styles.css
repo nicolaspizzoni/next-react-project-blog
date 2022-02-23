@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  /* altura da pagina no navegador */
+  min-height: 100vh;
+  background: #eee;
+}
+
+.posts {
+  display: grid;
+  /* repeat para todos os elementos, auto-fill para preencher todo espaço, minmax(min: 280px, max 1fr) */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.button-container {
+  min-height: 150px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input-content {
+  margin-bottom: 30px;
+  font-size: 30px;
+  width: 100%;
+  padding: 5px 8px;
+}
